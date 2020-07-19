@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+  <html lang="fr">
+    <head>
+      <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/553604369803902996/734143889954570280/rond.png" sizes="144x144">
+      <title>Contacter Mr Sopi</title>
+      <meta charset="UTF-8">
+      <meta name="Description" content="Ici, on peut contacter Mr Sopi">
+      <meta name="keywords" content="Contacter, parler, Mr Sopi">
+      <style>
+        html {
+        font-family: sans-serif;
+        }
+      
+        form {
+        width: 500px;
+        }
+      
+        label {
+        flex: 2;
+        line-height: 2;
+        text-align: right;
+        padding-right: 20px;
+        }
+      
+        input, textarea {
+        flex: 7;
+        font-family: sans-serif;
+        font-size: 1.1rem;
+        padding: 5px;
+        }
+
+        .insta {
+          border : 0px;
+          text-align : center;
+        }
+
+        textarea {
+        height: 60px;
+        }
+      </style>
+    </head>
+    <body>
+       <header>
+          <h1>Mr Sopi</h1>
+          <nav>
+             <a href="index.html" title="Aller à l'Accueil">Accueil</a>
+             <a href="instagram.html" title="Voir mes contenus Instagram">Instagram</a>
+             <a href="youtube.html" title="Voir la page de Youtube">Youtube</a>
+             <a href="citation.html" title="Voir les Citations">Citation</a>
+             <a href="blog.html" title="Voir la page du Blog">Blog</a>
+             <a href="contact.html" title="Nous contacter Contact">Contact</a>
+          </nav>
+          <img src="https://cdn.discordapp.com/attachments/553604369803902996/734143945679831153/fond.jpg" alt="Image de fond pour mon site" width="990" height="292">
+       </header>
+       <section>
+         <h2>Contact rapide :</h2>
+            <div class="insta" item-width="100">
+              <a href="https://www.instagram.com/mr_._sopi" title="Voir mes contenus Instagram"> Contacter sur Instagram</a><br>
+              <a href="https://www.instagram.com/mr_._sopi"  title="aller contacter Mr Sopi sur Instagram" target="_blank">
+                <img src="https://cdn.discordapp.com/attachments/553604369803902996/734143978043080704/profil-insta.jpg" alt="image avec lien pour visiter le profil de MR SOPI sur Instagram">
+              </a>
+            </div>
+         <h2>Envoyer un mail</h2>
+         <form action="contact.html">
+           <fieldset>
+             <legend>Mes informations avec le message</legend>
+               <div>
+                 <label for="email">Votre Adresse mail <sup>*</sup> </label>
+                 <input type="email" name="email" id="email" placeholder="exemple.1@email.com" autofocus required>
+               </div><br>
+               <div>
+                 <label for="sexe">Sexe <sup>*</sup></label>
+                 <select name="sexe" id="sexe">
+                   <option value="Homme" selected>Masculin</option>
+                   <option value="Femme">Féminin</option>
+                 </select>
+               </div><br>
+               <div>
+                 <label for="nameinput1">Nom <sup>*</sup> </label>
+                 <input type="text" name="nom" id="nameinput1" placeholder="Alpha" required>
+               </div><br>
+               <div>
+                 <label for="nameinput2">Prénom <sup>*</sup> </label>
+                 <input type="text" name="prenom" id="nameinput2" placeholder="Beta" required>
+               </div><br>
+               <div>
+                 <label for="date">Votre date de naissance</label><br>
+                 <input type="date" id="date" name="date" >
+               </div>
+               <div>
+                 <label for="message">Votre message <sup>*</sup></label>
+                 <textarea id="message" name="message" cols="60" rows="5" placeholder="Bonjour Mr Sopi, ..." required></textarea>
+               </div><br>
+               <div>
+                 <label for="file">Pièce jointe, s'il y en a : </label><br>
+                 <input type="file" id="file" name="file" multiple>
+               </div><br>
+               <div>
+                 <label><input type="checkbox" name="cgu" required> <sup>*</sup> J'accepte les conditions d'utilisations</label>
+               </div><br>
+                 <input type="reset" value="Annuler">
+                 <input type="submit" value="Envoyer à Mr Sopi"><br><br>
+                 <p> <sup>*</sup> : À compléter obligatoirement</p> 
+           </fieldset>
+         </form>
+       </section>
+       <footer>
+          <nav>
+             <a href="index.html" title="Aller à l'Accueil">Accueil</a>
+             <a href="instagram.html" title="Voir mes contenus Instagram">Instagram</a>
+             <a href="youtube.html" title="Voir la page de Youtube">Youtube</a>
+             <a href="citation.html" title="Voir les Citations">Citation</a>
+             <a href="blog.html" title="Voir la page du Blog">Blog</a>
+             <a href="contact.html" title="Nous contacter Contact">Contact</a>
+          </nav>
+          <address>12 Rue Rabelais,<br>93120 La Courneuve<br>France</address>
+       </footer>
+    </body>
+  </html>

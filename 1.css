@@ -1,0 +1,56 @@
+﻿body {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(0, 153, 204);
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 30;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+#nav-logo {
+    margin: auto;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+}
+
+    .navbar-menu > li {
+        margin-left: 2em;
+    }
+
+
+.navbar-item {
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+}
+
+nav.is-fixed-top.scrolled {
+    background-color: rgba(252, 252, 252, .9);
+    transition: background-color 200ms linear;
+}
+
+    nav.is-fixed-top.scrolled .navbar-item {
+        color: rgb(0, 153, 204);
+    }
+
+main {
+    padding-top: 250px;
+}
+
+footer {
+    text-align: center;
+}
